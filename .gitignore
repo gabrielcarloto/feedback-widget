@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 turbo.json
+.env
+**.db
+.db-journal

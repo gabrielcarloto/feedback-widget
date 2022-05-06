@@ -19,17 +19,21 @@ importers:
 
   apps/server:
     specifiers:
+      '@prisma/client': ^3.13.0
       '@types/express': ^4.17.13
       '@types/node': ^17.0.31
       express: ^4.18.1
+      prisma: ^3.13.0
       ts-node-dev: ^1.1.8
       typescript: ^4.6.3
     dependencies:
+      '@prisma/client': 3.13.0_prisma@3.13.0
       express: 4.18.1
       typescript: 4.6.4
     devDependencies:
       '@types/express': 4.17.13
       '@types/node': 17.0.31
+      prisma: 3.13.0
       ts-node-dev: 1.1.8_typescript@4.6.4
 
   apps/web:
@@ -558,6 +562,29 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+
+  /@prisma/client/3.13.0_prisma@3.13.0:
+    resolution: {integrity: sha512-lnEA2tTyVbO5mS1ehmHJQKBDiKB8shaR6s3azwj3Azfi5XHIfnqmkolLCvUeFYnkDCNVzGXJpUgKwQt/UOOYVQ==}
+    engines: {node: '>=12.6'}
+    requiresBuild: true
+    peerDependencies:
+      prisma: '*'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
+    dependencies:
+      '@prisma/engines-version': 3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b
+      prisma: 3.13.0
+    dev: false
+
+  /@prisma/engines-version/3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b:
+    resolution: {integrity: sha512-TGp9rvgJIKo8NgvAHSwOosbut9mTA7VC6/rpQI9gh+ySSRjdQFhbGyNUiOcQrlI9Ob2DWeO7y4HEnhdKxYiECg==}
+    dev: false
+
+  /@prisma/engines/3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b:
+    resolution: {integrity: sha512-Ip9CcCeUocH61eXu4BUGpvl5KleQyhcUVLpWCv+0ZmDv44bFaDpREqjGHHdRupvPN/ugB6gTlD9b9ewdj02yVA==}
+    requiresBuild: true
+    dev: true
 
   /@rollup/pluginutils/4.2.1:
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
@@ -2246,6 +2273,16 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
+  /prisma/3.13.0:
+    resolution: {integrity: sha512-oO1auBnBtieGdiN+57IgsA9Vr7Sy4HkILi1KSaUG4mpKfEbnkTGnLOxAqjLed+K2nsG/GtE1tJBtB7JxN1a78Q==}
+    engines: {node: '>=12.6'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': 3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b
+      ts-pattern: 4.0.2
+    dev: true
+
   /proxy-addr/2.0.7:
     resolution: {integrity: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==}
     engines: {node: '>= 0.10'}
@@ -2772,6 +2809,10 @@ packages:
       source-map-support: 0.5.21
       typescript: 4.6.4
       yn: 3.1.1
+    dev: true
+
+  /ts-pattern/4.0.2:
+    resolution: {integrity: sha512-eHqR/7A6fcw05vCOfnL6RwgGJbVi9G/YHTdYdjYmElhDdJ1SMn7pWs+6+YuxygaFwQS/g+cIDlu+UD8IVpur1A==}
     dev: true
 
   /tsconfig/7.0.0:
