@@ -24,7 +24,6 @@
     "postcss": "^8.4.13",
     "tailwindcss": "^3.0.24",
     "tsconfig": "*",
-    "typescript": "^4.6.3",
     "vite": "^2.9.7"
   }
 }
