@@ -6,6 +6,8 @@
 
 This project was developed during Rocketseat's _Next Level Week_ (Impulse). The goal was to create a fully functional and accessible feedback widget for both web and mobile devices, following a [Figma Project](https://www.figma.com/community/file/1102912516166573468).
 
+The mobile app built with React Native is in [another repository](https://github.com/gabrielcarloto/feedback-widget-mobile).
+
 ### :computer: Technologies
 
 - [Vite](https://vitejs.dev/)
