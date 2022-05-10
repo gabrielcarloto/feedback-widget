@@ -10,7 +10,7 @@
 
 This project was developed during Rocketseat's _Next Level Week_ (Impulse). The goal was to create a fully functional and accessible feedback widget for both web and mobile devices, following a [Figma Project](https://www.figma.com/community/file/1102912516166573468).
 
-Our mobile app built with React Native is in [another repository](https://github.com/gabrielcarloto/feedback-widget-mobile). <img src="https://tse2.mm.bing.net/th?id=OIP.1Y_BTi3nYnDC1uhCdalN3wAAAA" width="40" style="vertical-align:middle" />
+Our mobile app built with React Native is in [another repository](https://github.com/gabrielcarloto/feedback-widget-mobile). <img src="https://tse2.mm.bing.net/th?id=OIP.1Y_BTi3nYnDC1uhCdalN3wAAAA" width="40" style="margin-left: 10px" />
 
 ### :computer: Technologies
 
