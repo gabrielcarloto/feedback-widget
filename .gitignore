@@ -25,5 +25,6 @@ dist-ssr
 
 turbo.json
 .env
+.env.local
 **.db
 .db-journal
