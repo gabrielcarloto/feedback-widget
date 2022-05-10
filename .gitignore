@@ -23,7 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-turbo.json
 .env
 .env.local
 **.db
